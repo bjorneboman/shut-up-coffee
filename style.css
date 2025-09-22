@@ -10,6 +10,7 @@
   align-items: center;
   color: white;
   font-size: 3rem;
+  gap: 50px;
 }
 .hero h1,
 .hero p {
@@ -27,7 +28,10 @@
 
 .hero a {
   text-decoration: underline;
-  color: inherit;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  padding: 20px;
+  border-radius: 20px;
 }
 .hero span {
   color: rgb(132, 66, 66);
