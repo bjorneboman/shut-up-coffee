@@ -1,0 +1,30 @@
+.hero {
+  background-image: url(images/kaffe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+}
+.hero h1,
+p {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 20px;
+}
+.hero p {
+  color: black;
+}
+
+.hero a {
+  text-decoration: underline;
+  color: inherit;
+}
+.hero span {
+  color: rgb(132, 66, 66);
+}
