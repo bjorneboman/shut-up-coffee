@@ -37,6 +37,30 @@
 .hero span {
   color: rgb(132, 66, 66);
 }
+.main-container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-items: stretch;
+  max-width: 90vw;
+  height: 60vh;
+  margin: 0 30px;
+}
+.main-container-item{
+  display:flex;
+  flex-direction: column;
+  border:solid 2px black;
+  flex-grow:1;
+  justify-content: center;
+  margin: 0 10px;
+}
+.main-container-item img{
+  border:solid 2px black;
+  border-radius: 15px;
+  flex-grow:1;
+  background-color: rgb(170, 228, 230);
+  margin: 20px 30px;
+}
+=======
 
 /* Footer */
 footer {
